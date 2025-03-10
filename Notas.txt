@@ -1,0 +1,64 @@
+DW Consumer;
+DW Viewer;
+DW Scoped Consumer
+
+Visor;
+Visor de contenido de BI;
+Creador de contenido de BI
+
+
+
+BSID (Por Cobrar)
+BSIK (Por Pagar)
+
+------------------------------------------
+Cargar RH
+Automatizar
+
+Cargas Comercial, Compras, Tesoreria.
+
+Cargas de RH Infotipos debe ser diariamente
+
+-----------------------------------------------
+
+
+PTEXT IN ('ACCIÓN','ACCIÓN (PARCIAL 4HRS','ACCIÓN (PARCIAL 6HRS','TÁCTICO')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
