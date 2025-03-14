@@ -1,0 +1,1 @@
+create or alter tabla1 (nombre varchar, apellido varchar)
