@@ -1,0 +1,22 @@
+name: SQL Syntax Check
+
+on:
+  pull_request:
+    types:
+      - opened
+    branches:
+      - main
+
+jobs:
+  validate_sql:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install SQLFluff (SQL Linter)
+        run: pip install sqlfluff
+
+      - name: Run SQL syntax check
+        run: sqlfluff lint --dialect snowflake queries/*.sql
