@@ -7,7 +7,7 @@ Visor de contenido de BI;
 Creador de contenido de BI
 
 
-
+CUENTAS
 BSID (Por Cobrar)
 BSIK (Por Pagar)
 
