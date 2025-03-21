@@ -25,7 +25,7 @@ jobs:
           account = "JMOMMDH-UB45802"
           user = "JPEDREROS"
           password = "${{ secrets.SNOWFLAKE_PASSWORD }}"
-          database = "LAMOSADATALAKE_DEV"
+          database = "LAMOSADATALAKE_PRD"
           schema = "PUBLIC"
           warehouse = "COMPUTE_WH"
  
