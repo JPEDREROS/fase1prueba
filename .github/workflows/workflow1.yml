@@ -3,7 +3,7 @@ name: SQL Syntax Check
 on:
   pull_request:
     types:
-     - opened
+      - opened
     branches:
       - main
 
