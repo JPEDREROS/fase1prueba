@@ -53,3 +53,6 @@ jobs:
       
       - name: Deploy scripts PRE to prod environment
         run: snow git execute "@DATABASE_GITHUB1.REPOSITORIO_GIT.REPOS_GITHUB_EJE1/branches/main/SAP_PRE/ABASTECIMIENTOS/Tables/*.sql"
+
+      - name: Deploy scripts PRE to prod environment
+        run: snow git execute "@DATABASE_GITHUB1.REPOSITORIO_GIT.REPOS_GITHUB_EJE1/branches/main/SAP_PRE/DATOS_MAESTROS/Tables/*.sql"
