@@ -48,14 +48,14 @@ jobs:
       - name: Fetch repository changes
         run: snow git fetch DATABASE_GITHUB1.REPOSITORIO_GIT.REPOS_GITHUB_EJE1
      
-      - name: Deploy scripts RAW to prod environment
+      - name: Deploy scripts RAW E1 to prod environment
         run: snow git execute "@DATABASE_GITHUB1.REPOSITORIO_GIT.REPOS_GITHUB_EJE1/branches/main/SAP_RAW/E1/Tables/*.sql"
       
-      - name: Deploy scripts PRE to prod environment
+      - name: Deploy scripts PRE ABASTECIMIENTOS to prod environment
         run: snow git execute "@DATABASE_GITHUB1.REPOSITORIO_GIT.REPOS_GITHUB_EJE1/branches/main/SAP_PRE/ABASTECIMIENTOS/Tables/*.sql"
 
-      - name: Deploy scripts PRE to prod environment
+      - name: Deploy scripts PRE DATOS MAESTROS to prod environment
         run: snow git execute "@DATABASE_GITHUB1.REPOSITORIO_GIT.REPOS_GITHUB_EJE1/branches/main/SAP_PRE/DATOS_MAESTROS/Tables/*.sql"
       
-      - name: Deploy scripts PRE to prod environment
+      - name: Deploy scripts CON DATOS MAESTROS to prod environment
         run: snow git execute "@DATABASE_GITHUB1.REPOSITORIO_GIT.REPOS_GITHUB_EJE1/branches/main/SAP_CON/DATOS_MAESTROS/Tables/*.sql"
